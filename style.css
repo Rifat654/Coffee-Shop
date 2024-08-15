@@ -7,7 +7,7 @@
 
 .header {
   width: 100%;
-  height: 100vh;
+  height: auto;
   background: rgba(0, 0, 0, 0.5) url(images/Coffee-background.png);
   background-size: cover;
   background-repeat: no-repeat;

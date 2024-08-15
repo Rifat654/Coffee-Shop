@@ -39,4 +39,10 @@
   .text-box {
     width: 100%;
   }
+  .h2-sec {
+    font-size: 24px;
+  }
+  .p-sec {
+    font-size: 12px;
+  }
 }

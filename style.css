@@ -28,3 +28,9 @@
     box-shadow: none;
   }
 }
+
+.text-box {
+  width: 600px;
+  height: 450px;
+  margin: auto;
+}

@@ -34,6 +34,13 @@
   height: 450px;
   margin: auto;
 }
+.card {
+  width: 300px;
+}
+.card-img-top {
+  width: 100%;
+  height: 250px;
+}
 
 @media screen and (max-width: 620px) {
   .text-box {
@@ -44,5 +51,8 @@
   }
   .p-sec {
     font-size: 12px;
+  }
+  .prosucts {
+    flex-direction: column;
   }
 }

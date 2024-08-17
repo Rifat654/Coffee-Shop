@@ -4,7 +4,11 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
-
+/*====================Header part starts======================== */
+.hr {
+  width: 80px;
+  margin: auto;
+}
 .header {
   width: 100%;
   height: auto;
@@ -28,6 +32,8 @@
     box-shadow: none;
   }
 }
+/*====================Header part starts======================== */
+/*====================Card part start======================== */
 
 .text-box {
   width: 600px;
@@ -41,7 +47,54 @@
   width: 100%;
   height: 250px;
 }
-
+/*====================Card part end======================== */
+/*====================About  part start======================== */
+.about-img img {
+  width: 400px;
+  height: 350px;
+  border-radius: 20px;
+}
+.about-text {
+  width: 40%;
+}
+.bt-box {
+  border: 1.5px solid #fff !important;
+  border-radius: 30px !important;
+  background-color: black !important;
+}
+/*====================About  part end======================== */
+/*====================preview  part start======================== */
+.d-block {
+  width: 100%;
+  height: 400px;
+}
+.icon {
+  color: #fff !important;
+}
+/*====================preview  part end======================== */
+/*====================footer  part start======================== */
+.copy {
+  font-size: 20px;
+}
+/*====================footer  part end======================== */
+/*====================@media start======================== */
+@media screen and (max-width: 768px) {
+  .box {
+    flex-direction: column-reverse;
+    padding: 0px 10px;
+  }
+  .about-img img {
+    width: 100%;
+  }
+  .about-text {
+    width: 100%;
+    text-align: center;
+  }
+  .about-p {
+    font-size: 10px !important;
+    color: gray;
+  }
+}
 @media screen and (max-width: 620px) {
   .text-box {
     width: 100%;
